@@ -229,43 +229,43 @@ Foi necessário reunir múltiplos contextos e restrições para construir cenár
 
 5. Técnicas de Engenharia de Prompt Identificadas
 
-1. Definição de Persona (Role Prompting)
+• Definição de Persona (Role Prompting)
 
 “Atue agora como um especialista em Last Mile, que tem 20 anos de experiência…”
 
 Define o papel e o nível de expertise esperado da IA.
 
-2. Contextualização
+• Contextualização
 
 Apresentação do cenário, metas, estrutura operacional e resultados atuais.
 
-3. Cenário Hipotético
+• Cenário Hipotético
 
 “Você foi contratado pela empresa X…”
 
 Criação de um ambiente de análise específico.
 
-4. Objetivo Claro
+• Objetivo Claro
 
 Melhorar o OTD e atingir a meta anual.
 
-5. Dados e Restrições
+• Dados e Restrições
 	•	OTD atual: 80%
 	•	Meta: 90%
 	•	1.000 filiais
 	•	2 a 5 transportadoras por filial
 
-6. Task Prompting
+• Task Prompting
 
 “Estruture um plano de ação para resolver esse problema.”
 
 Define exatamente a tarefa esperada.
 
-7. Especificação de Formato
+• Especificação de Formato
 
 Solicitação de etapas lógicas e cronograma.
 
-8. Encadeamento Implícito de Raciocínio
+• Encadeamento Implícito de Raciocínio
 
 A estrutura solicitada induz a decomposição do problema em partes menores antes da resposta final.
 
