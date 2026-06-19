@@ -13,7 +13,6 @@ Objetivos Específicos:
 •	Explorar tecnologias utilizadas nas operações de delivery.
 
 Contexto da escolha do tema: 
-Olá, pessoal! 
 Escolhi este tema por causa do meu momento profissional, pois atualmente trabalho no setor de Planejamento e Controle Logístico (PCL). 
 Este setor é o responsável pela gestão das operações do Last Mile Logistics.
 
@@ -40,7 +39,7 @@ Disponível em: https://youtu.be/Lck6efQ4dd0
 
 3. PROMPTS, RESULTADOS E DESAFIOS
 
- Nota explicativa: Os prompts seguiram a motodogia do simples para o complexo, a partir da qual
+ Nota explicativa: Os prompts seguiram a motodogia de ir do simples para o complexo, a partir da qual
 desenvolvo prompts, no início, genéricos e ao longo das conversas vou enviando comandos mais complexos.
 
  Prompts genéricos introdutórios:
@@ -130,18 +129,13 @@ Com base nas fontes deste notebook, os 5 assuntos de **Last Mile** que mais se r
 5.  **Experiência do Cliente e Nível de Serviço:** O Last Mile é fundamental para a percepção de valor da marca, pois é o momento do **contato físico** com o consumidor [25-27]. Falhas nesta etapa impactam diretamente a satisfação e a fidelização, medidas por indicadores como o **NPS (Net Promoter Score)** e o **SLA (Service Level Agreement)**, exigindo que a entrega não seja apenas pontual, mas que o produto chegue em perfeitas condições [6, 25, 28-30].
 
 PROMPT 5. Atue agora como um especialista em Last Mile, que tem 20 anos de experiência com médias e grandes empresas no Brasil. 
-
 Você foi contratado pela empresa X para melhorar o OTD e fazer o setor chegar à meta no final do ano. 
-
 Considere o seguinte problema no Last Mile da empresa hipotética X: 
-
 A principal meta do setor de Last Mile da empresa X é alcançar, no saldo do ano inteiro, um nível de On Time Delivery (OTD) de 90%, isto é, ter entregado no prazo certo 90% dos pedidos de delivery do ano inteiro; mas já estamos no mês de junho e o OTD do ano inteiro até aqui é 80%, ou seja, a empresa atrasou 20% dos pedidos de delivery, considerando de janeiro até meados de junho. Essa empresa tem 1.000 filiais e em cada filial atuam entre 2 e 5 transportadoras terceirizadas. 
-
 Estruture um plano de ação para resolver esse problema. Seu plano deve ser organizado por meio de etapas lógicas e cronograma de execuções.
 Resultado: 
 
 Como especialista em **Last Mile** com duas décadas de atuação no mercado brasileiro, aceito o desafio. Para que a Empresa X alcance a meta anual de **90% de OTD (On Time Delivery)** partindo de um acumulado de 80% em junho, a realidade matemática é implacável: o setor precisa operar com **100% de eficiência (erro zero)** de julho a dezembro para que a média do ano atinja o objetivo.
-
 Abaixo, estruturo o plano de ação baseado nas melhores práticas de gestão de operações, roteirização e relacionamento com terceiros, conforme fundamentado nas fontes.
 
 ### Etapa 1: Diagnóstico de Precisão e Auditoria de Dados (Julho)
@@ -180,7 +174,36 @@ O fim do ano traz sazonalidade alta (Black Friday e Natal), o que aumenta o risc
 
 DESAFIOS
 • Para a formulação dos prompts genéricos, não encontrei dificuldades. Apenas busquei pensar: como posso fazer para conhecer uma área nova?
-• Já para a elaboração dos prompts complexos, pensei 
+• Já para a elaboração dos prompts complexos, tive que reunir múltiplos contextos para a hipótese ser verosímil.
 
 
 4. TÉCNICAS DE ENGENHARIA DE PROMPT
+Para o prompt mais complexo da série, o 5º, utilizei algumas das principias técnicas de Engenharia de Prompt:
+
+  1.	Definição de Persona (Role Prompting)
+	•	“Atue agora como um especialista em Last Mile, que tem 20 anos de experiência…”
+	•	Define quem a IA deve ser e qual nível de expertise deve assumir.
+  2.	Contextualização
+	•	Explica o cenário da empresa, a meta de OTD, o resultado atual, o período analisado e a estrutura operacional.
+	•	Fornece informações necessárias para respostas mais relevantes.
+  3.	Cenário Hipotético
+	•	“Você foi contratado pela empresa X…”
+	•	Cria uma situação específica para direcionar a análise.
+  4.	Objetivo Claro
+	•	“Melhorar o OTD e fazer o setor chegar à meta no final do ano.”
+	•	Define o problema e o resultado esperado.
+  5.	Dados e Restrições
+	•	OTD atual de 80%, meta de 90%, 1.000 filiais, 2 a 5 transportadoras por filial.
+	•	Fornece parâmetros concretos para a solução.
+  6.	Task Prompting (Instrução de Tarefa)
+	•	“Estruture um plano de ação para resolver esse problema.”
+	•	Diz exatamente o que a IA deve produzir.
+  7.	Especificação de Formato de Saída
+	•	“Seu plano deve ser organizado por meio de etapas lógicas e cronograma de execuções.”
+	•	Determina como a resposta deve ser estruturada.
+  8.	Encadeamento Implícito de Raciocínio (Chain of Thought Indireto)
+	•	Ao pedir etapas lógicas e cronograma, você induz a IA a decompor o problema em partes antes de responder.
+	•	Não solicita o raciocínio explicitamente, mas favorece uma análise estruturada.
+
+5. CONSIDERAÇÕES FINAIS
+Fica aqui a minha recomendação do modelo de estudo do NotebookLM, por causa da sua capacidade de fornecer respostas presas às fontes, apresentando menor risco de alucinações do que outras IAs, além da variedade de formas de apresentação, como slides, vídeo e áudio.
